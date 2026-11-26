@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#b8e8ee">
+  <meta name="description" content="Дала Run — HTML, CSS және JavaScript бойынша ҰБТ дайындығына арналған 3D ойын.">
+  <title>Дала Run — Білім жолы</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+  </script>
+  <script type="module" src="./game.js"></script>
+</head>
+<body>
+  <main class="game-shell" aria-label="Дала Run ойыны">
+    <canvas id="world" aria-label="Үш өлшемді дала көрінісі"></canvas>
+    <div class="sun-glow"></div>
+    <div class="vignette"></div>
+
+    <header id="hud" class="hud hidden" aria-live="polite">
+      <div class="hud-brand"><span class="brand-mark">Д</span><span>ДАЛА <b>RUN</b></span></div>
+      <div class="hud-stat"><span class="eyebrow">ҰПАЙ</span><strong id="score">0</strong></div>
+      <div class="hud-stat topic-stat"><span class="eyebrow">ТАҚЫРЫП</span><strong id="topic">HTML</strong></div>
+      <div class="mistakes" aria-label="Қате жауаптар"><span class="eyebrow">ҚАТЕ</span><div id="mistake-dots" class="dots"><i></i><i></i><i></i></div></div>
+      <button id="pause-button" class="icon-button" aria-label="Ойынды кідірту" title="Кідірту (Esc)">Ⅱ</button>
+    </header>
+
+    <section id="question-hud" class="question-hud hidden" aria-live="polite">
+      <div class="question-meta"><span id="question-number">1 / 150</span><span id="question-category">HTML</span></div>
+      <h1 id="question-text"></h1>
+      <div class="time-track"><div id="time-fill"></div></div>
+      <p class="hint">Дұрыс жауап тұрған жолаққа ауыс</p>
+    </section>
+
+    <section id="choice-strip" class="choice-strip hidden" aria-label="Жауап жолақтары">
+      <article class="choice-card" data-lane="0"><span class="lane-label">СОЛ ЖОЛАҚ</span><span class="choice-letter">1</span><p></p></article>
+      <article class="choice-card selected" data-lane="1"><span class="lane-label">ОРТАҢҒЫ ЖОЛАҚ</span><span class="choice-letter">2</span><p></p></article>
+      <article class="choice-card" data-lane="2"><span class="lane-label">ОҢ ЖОЛАҚ</span><span class="choice-letter">3</span><p></p></article>
+    </section>
+    <div id="feedback" class="feedback hidden" role="status"></div>
+    <div id="mobile-controls" class="mobile-controls hidden" aria-label="Жолақты ауыстыру">
+      <button id="left-button" aria-label="Сол жолақ">←</button>
+      <span>ЖОЛАҚ ТАҢДА</span>
+      <button id="right-button" aria-label="Оң жолақ">→</button>
+    </div>
+
+    <section id="start-screen" class="overlay-card start-card">
+      <div class="sun-symbol">✳</div>
+      <p class="eyebrow">ҰБТ-ДАҒЫ БІЛІМІҢДІ СЫНАЙТЫН ЖҮГІРІС</p>
+      <h1>Дала Run</h1>
+      <p class="subtitle">Білім жолы</p>
+      <p class="intro">Кең далада жүгіріп, HTML, CSS және JavaScript сұрақтарына дұрыс жауап бер.</p>
+      <div class="start-facts"><span>150 сұрақ</span><span>3 тақырып</span><span>3 қате — ойын соңы</span></div>
+      <button id="start-button" class="primary-button" disabled>Ойнау <span>→</span></button>
+      <button id="how-button" class="text-button">Қалай ойнаймын?</button>
+      <p id="best-start" class="best-line">Үздік нәтиже: 0</p>
+      <p id="load-error" class="load-error hidden"></p>
+    </section>
+
+    <section id="how-screen" class="overlay-card compact-card hidden">
+      <span class="eyebrow">ҚЫСҚА НҰСҚАУЛЫҚ</span>
+      <h2>Жолақты таңда</h2>
+      <p>Әр жауап өз жолағында көрсетіледі. Солға және оңға ауысып, дұрыс жауапты таңда.</p>
+      <div class="instruction-grid"><span>← / → немесе A / D</span><span>Телефонда — сырғыту</span><span>Дұрыс жауап — +100 ұпай</span><span>3 қате жауап — ойын аяқталады</span></div>
+      <button id="back-how" class="primary-button">Түсіндім</button>
+    </section>
+
+    <section id="pause-screen" class="overlay-card compact-card hidden">
+      <span class="eyebrow">ДЕМАЛЫС СӘТІ</span><h2>Ойын кідіртілді</h2>
+      <p>Дайын болсаң, білім жолына қайта орал.</p>
+      <button id="resume-button" class="primary-button">Жалғастыру</button>
+      <button id="quit-button" class="text-button">Мәзірге оралу</button>
+    </section>
+
+    <section id="result-screen" class="overlay-card compact-card hidden">
+      <span class="eyebrow">БҮГІНГІ НӘТИЖЕ</span><h2 id="result-title">Жарайсың!</h2>
+      <p id="result-copy"></p>
+      <div class="result-score"><span>ЖИНАҒАН ҰПАЙ</span><strong id="final-score">0</strong></div>
+      <p id="best-result" class="best-line"></p>
+      <button id="restart-button" class="primary-button">Қайта ойнау</button>
+      <button id="menu-button" class="text-button">Мәзірге оралу</button>
+    </section>
+
+    <footer class="footer-note"><span>БІЛІММЕН АЛҒА</span><span>ҚАЗАҚСТАН · ҰБТ</span></footer>
+  </main>
+</body>
+</html>
