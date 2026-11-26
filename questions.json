@@ -1,0 +1,1352 @@
+[
+  {
+    "question": "HTML құжатында браузерге кодтау UTF-8 екенін хабарлау үшін қай жазылым дұрыс?",
+    "correctAnswer": "<meta charset=\"utf-8\">",
+    "distractors": [
+      "<html encoding=\"utf-8\">",
+      "<charset>utf-8</charset>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Қай жұп құжаттың көрінетін мазмұнын қамтитын бөлімді белгілейді?",
+    "correctAnswer": "<body>...</body>",
+    "distractors": [
+      "<meta>...</meta>",
+      "<head>...</head>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Беттің қойындысында көрінетін атау қай тегте беріледі?",
+    "correctAnswer": "<title>",
+    "distractors": [
+      "<header>",
+      "<h1>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Қай тұжырым HTML элементін дәл сипаттайды?",
+    "correctAnswer": "Ашылу тегі, мазмұны және қажет болса жабылу тегі",
+    "distractors": [
+      "CSS селекторы мен қасиет мәні",
+      "Тек бұрыштық жақшадағы ашылу тегі"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Қай тег дара тегке жатады?",
+    "correctAnswer": "<br>",
+    "distractors": [
+      "<title>",
+      "<strong>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Мәтіннің бөлігін маңызды мағынамен белгілеу үшін қай семантикалық тег қолайлы?",
+    "correctAnswer": "<strong>",
+    "distractors": [
+      "<font>",
+      "<b>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Құжатта «Кіріспе» негізгі тақырыбы, ал «Мақсаты» оның ішкі тақырыбы болса, дұрыс иерархия қайсы?",
+    "correctAnswer": "<h1>Кіріспе</h1><h2>Мақсаты</h2>",
+    "distractors": [
+      "<p>Кіріспе</p><h1>Мақсаты</h1>",
+      "<h3>Кіріспе</h3><h2>Мақсаты</h2>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Жаңа жолға көшіреді, бірақ жаңа абзац мағынасын өздігінен қоспайды. Қайсысы?",
+    "correctAnswer": "<br>",
+    "distractors": [
+      "<hr>",
+      "<p>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Жеке тақырыпшасы бар мазмұндық бөлімді белгілеуге қай тег мағыналық тұрғыдан сәйкес?",
+    "correctAnswer": "<section>",
+    "distractors": [
+      "<span>",
+      "<sup>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Навигация сілтемелерін топтастыру үшін қай HTML5 элементі арналған?",
+    "correctAnswer": "<nav>",
+    "distractors": [
+      "<main>",
+      "<aside>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Негізгі мазмұнды бір рет қана қамтитын семантикалық контейнер қайсы?",
+    "correctAnswer": "<main>",
+    "distractors": [
+      "<div>",
+      "<article>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Беттің басқа жерінен бөлек таратуға болатын дербес мақалаға қай элемент сәйкес?",
+    "correctAnswer": "<article>",
+    "distractors": [
+      "<nav>",
+      "<br>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Берілген тізімде әр тармақ ретімен нөмірленуі керек. Қай контейнерді таңдайсыз?",
+    "correctAnswer": "<ol>",
+    "distractors": [
+      "<ul>",
+      "<dl>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Тізімдегі жеке тармақты қай тег белгілейді?",
+    "correctAnswer": "<li>",
+    "distractors": [
+      "<row>",
+      "<item>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Сілтеме басқа бетке өтуі үшін негізгі қай атрибут қажет?",
+    "correctAnswer": "href",
+    "distractors": [
+      "rel",
+      "src"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Сурет басылса, report.html файлына өтсін. Қай жазылым дұрыс?",
+    "correctAnswer": "<a href=\"report.html\"><img src=\"chart.png\" alt=\"Есеп диаграммасы\"></a>",
+    "distractors": [
+      "<a src=\"report.html\"><img href=\"chart.png\"></a>",
+      "<link href=\"report.html\"><img src=\"chart.png\"></link>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Сурет жүктелмесе де мазмұнын түсіндіруге және экран оқу құралына сипаттама беретін атрибут қайсы?",
+    "correctAnswer": "alt",
+    "distractors": [
+      "name",
+      "longdesc"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бет пен images папкасы бір деңгейде орналасқан. Суреттің салыстырмалы жолы қайсы?",
+    "correctAnswer": "src=\"images/photo.jpg\"",
+    "distractors": [
+      "href=\"images/photo.jpg\"",
+      "src=\"../images/photo.jpg\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Ағымдағы буманың бір деңгей жоғарысындағы banner.png файлына қай жол сілтейді?",
+    "correctAnswer": "src=\"../banner.png\"",
+    "distractors": [
+      "src=\"/banner.png\"",
+      "src=\"./banner.png\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Кестеде жол құрып, оның ішіне дерек ұяшықтарын жазатын тегтер тізбегі қайсы?",
+    "correctAnswer": "<tr><td>...</td></tr>",
+    "distractors": [
+      "<td><tr>...</tr></td>",
+      "<table><th>...</th></table>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Кестедегі баған атауын семантикалық тақырып ұяшығы ретінде белгілеу үшін не қолданылады?",
+    "correctAnswer": "<th>",
+    "distractors": [
+      "<theadcell>",
+      "<td>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бір ұяшық екі бағанды қамтуы керек. Қай атрибут дұрыс?",
+    "correctAnswer": "colspan=\"2\"",
+    "distractors": [
+      "span=\"2\"",
+      "rowspan=\"2\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Ұяшық «Ақпарат» жолымен бірге екі қатар биіктігін алуы керек. Қайсысын қоясыз?",
+    "correctAnswer": "rowspan=\"2\"",
+    "distractors": [
+      "height=\"2\"",
+      "rows=\"2\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Кестенің түсіндірме атауын белгілеуге қай тег арналған?",
+    "correctAnswer": "<caption>",
+    "distractors": [
+      "<summary>",
+      "<legend>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Формадағы мәтін өрісінің мәнін жібергенде атауы сақталуы үшін қай атрибут керек?",
+    "correctAnswer": "name",
+    "distractors": [
+      "placeholder",
+      "class"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Пайдаланушыдан бір жолдық мәтін алу үшін қай input түрі қолайлы?",
+    "correctAnswer": "type=\"text\"",
+    "distractors": [
+      "type=\"submit\"",
+      "type=\"radio\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бір топтан тек бір жауап таңдалуы керек. Радио батырмаларда қай шарт маңызды?",
+    "correctAnswer": "Барлығына бірдей name беру",
+    "distractors": [
+      "Әрқайсына бірдей id беру",
+      "Барлығына checked жазу"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бірнеше тәуелсіз белгіні қатар таңдауға мүмкіндік беретін input түрі қайсы?",
+    "correctAnswer": "checkbox",
+    "distractors": [
+      "radio",
+      "password"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Құпиясөзді экранда таңбалармен жасырып көрсету үшін қай input керек?",
+    "correctAnswer": "type=\"password\"",
+    "distractors": [
+      "type=\"text\"",
+      "type=\"secret\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Өрістің атауын көрнекі мәтінмен байланыстыруға қай тег қолданылады?",
+    "correctAnswer": "<label>",
+    "distractors": [
+      "<title>",
+      "<legend>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Пішінде көпжолды пікір енгізу өрісі қажет. Қай элементті қолданасыз?",
+    "correctAnswer": "<textarea>",
+    "distractors": [
+      "<text>",
+      "<paragraph>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Таңдау тізімін және оның нұсқаларын жасауға арналған дұрыс жұп қайсы?",
+    "correctAnswer": "<select> және <option>",
+    "distractors": [
+      "<datalist> және <choice>",
+      "<list> және <li>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Submit батырмасы қай міндетті орындайды?",
+    "correctAnswer": "Форма деректерін жіберуге әрекет жасайды",
+    "distractors": [
+      "Өрістердің бәрін жасырады",
+      "Жаңа мәтін өрісін ашады"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Форма жібергенде деректерді қабылдайтын мекенжай қай атрибутпен көрсетіледі?",
+    "correctAnswer": "action",
+    "distractors": [
+      "target",
+      "method"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Кіру деректерін URL жолына қоспай жіберуге қай әдіс лайық?",
+    "correctAnswer": "POST",
+    "distractors": [
+      "GET",
+      "LINK"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Құжатта кіріктірілген стильдер орналасатын бөлім қайсы?",
+    "correctAnswer": "<head> ішіндегі <style>",
+    "distractors": [
+      "<html> басында",
+      "<body>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Сыртқы style.css файлын жалғаудың дұрыс нұсқасын таңдаңыз.",
+    "correctAnswer": "<link rel=\"stylesheet\" href=\"style.css\">",
+    "distractors": [
+      "<style src=\"style.css\">",
+      "<css file=\"style.css\">"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "HTML түсініктемесінің дұрыс синтаксисі қайсы?",
+    "correctAnswer": "<!-- түсініктеме -->",
+    "distractors": [
+      "// түсініктеме",
+      "<comment>түсініктеме</comment>"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Таңбаларды HTML тегі ретінде емес, мәтін ретінде көрсету үшін < таңбасын қалай жазады?",
+    "correctAnswer": "&lt;",
+    "distractors": [
+      "&amp;",
+      "&gt;"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Мәтінде & таңбасын қауіпсіз көрсетуге арналған entity қайсы?",
+    "correctAnswer": "&amp;",
+    "distractors": [
+      "&nbsp;",
+      "&lt;"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бос орындардың бірізді тізбегін HTML мәтінінде сақтау қажет. Қай әдіс жарамды?",
+    "correctAnswer": "Әр бос орынды &nbsp; арқылы беру",
+    "distractors": [
+      "Бос орын орнына <br> қою",
+      "Мәтінді <title> ішінде жазу"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Екі файл бір бетке бірдей CSS қоссын. HTML-де бір ережені екі файлда қайталамау үшін не істейді?",
+    "correctAnswer": "<head> бөлігінде бірнеше <link rel=\"stylesheet\"> қосады",
+    "distractors": [
+      "CSS кодын <title> ішіне жазады",
+      "<meta> тегін екі рет қайталайды"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "HTML файлдарының кең тараған дұрыс кеңейтімдері қайсы?",
+    "correctAnswer": ".html және .htm",
+    "distractors": [
+      ".css және .js",
+      ".web және .page"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Сыртқы сілтемені жаңа қойындыда ашу үшін қай атрибут мәні қолданылады?",
+    "correctAnswer": "target=\"_blank\"",
+    "distractors": [
+      "window=\"new\"",
+      "href=\"_blank\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бет ішіндегі id=\"contact\" бөліміне сілтеме қалай беріледі?",
+    "correctAnswer": "href=\"#contact\"",
+    "distractors": [
+      "target=\"contact\"",
+      "href=\"contact\""
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Беттегі бірегей элементке стиль не скриптпен жүгіну үшін қай атрибуттың мәні құжатта қайталанбауы тиіс?",
+    "correctAnswer": "id",
+    "distractors": [
+      "class",
+      "title"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бірнеше элементке ортақ топтық атау беруге қай атрибут қолайлы?",
+    "correctAnswer": "class",
+    "distractors": [
+      "src",
+      "id"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Суреттің пропорциясын сақтап кішірейту үшін ені өзгергенде қандай қағиданы ұстанған дұрыс?",
+    "correctAnswer": "Тек бір өлшемді белгілеп, екіншісін автоматты сақтауға мүмкіндік беру",
+    "distractors": [
+      "Ені мен биіктігін әртүрлі қатынаста өзгерту",
+      "Суретті <table> ішіне көшіру"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Суретке width=\"240\" және height=\"120\" берілсе, HTML нені сұрайды?",
+    "correctAnswer": "Ені 240, биіктігі 120 пиксель болатын көрсету өлшемін",
+    "distractors": [
+      "Суретті 240 рет қайталауды",
+      "Тек атрибуттардың ретін өзгертуді"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "Бір браузерде қолдау көрсетілмейтін пішімді алмастыратын аудио нұсқаларын берудің дұрыс тәсілі қайсы?",
+    "correctAnswer": "Бір <audio> ішінде бірнеше <source> көрсету",
+    "distractors": [
+      "Бір <img> ішіне дыбыстарды салу",
+      "Әр файлға жеке <body> ашу"
+    ],
+    "topic": "HTML"
+  },
+  {
+    "question": "CSS ережесінің негізгі синтаксистік құрылымы қайсы?",
+    "correctAnswer": "селектор { қасиет: мән; }",
+    "distractors": [
+      "селектор [мән] қасиет",
+      "<селектор> = қасиет(мән)"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "CSS ережесінде қасиет пен мәннің арасына қандай белгі қойылады?",
+    "correctAnswer": "Қос нүкте",
+    "distractors": [
+      "Нүктелі үтір",
+      "Теңдік белгісі міндетті түрде"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Бір блоктағы екі декларацияны бөлуге әдетте не қойылады?",
+    "correctAnswer": "Нүктелі үтір",
+    "distractors": [
+      "Қиғаш сызық",
+      "Қос нүкте"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Барлық <p> элементіне көк мәтін беретін селектор қайсы?",
+    "correctAnswer": "p { color: blue; }",
+    "distractors": [
+      "#p { color: blue; }",
+      "*p { color: blue; }"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "id=\"menu\" элементін таңдауға арналған CSS селекторы қайсы?",
+    "correctAnswer": "#menu",
+    "distractors": [
+      ".menu",
+      "menu"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "class=\"note\" бар элементтерді таңдайтын селекторды көрсетіңіз.",
+    "correctAnswer": ".note",
+    "distractors": [
+      "#note",
+      "note"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Екі селекторға да бірдей стильді қолданудың дұрыс жазылымы қайсы?",
+    "correctAnswer": "h1, p { color: red; }",
+    "distractors": [
+      "h1:p { color: red; }",
+      "h1 + p { color: red; }"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "<div> ішіндегі барлық <a> элементін таңдау үшін қай селектор дұрыс?",
+    "correctAnswer": "div a",
+    "distractors": [
+      "div.a",
+      "div, a"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Тек div элементінің тікелей баласы болатын p элементтерін таңдайтын селектор қайсы?",
+    "correctAnswer": "div > p",
+    "distractors": [
+      "div ~ p",
+      "div p"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Сілтеме үстіне тышқан келген сәтті таңдаудың псевдоклассы қайсы?",
+    "correctAnswer": ":hover",
+    "distractors": [
+      "::before",
+      ".hover"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Фокус алған мәтін өрісіне шекара беру селекторы қайсы?",
+    "correctAnswer": "input:focus",
+    "distractors": [
+      "#input:active-focus",
+      "input::focus"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "a[href] селекторы нені таңдайды?",
+    "correctAnswer": "href атрибуты бар a элементтерін",
+    "distractors": [
+      "барлық сілтеме мәтінін",
+      "тек id=\"href\" элементін"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Тек type=\"text\" мәні бар input элементтерін таңдаңыз.",
+    "correctAnswer": "input[type=\"text\"]",
+    "distractors": [
+      "input: text",
+      "#input[type=text]"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "h2 тақырыбының мәтін түсін қызыл ететін декларация қайсы?",
+    "correctAnswer": "color: red;",
+    "distractors": [
+      "foreground: red;",
+      "text-color: red;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Мәтіннің өлшемін CSS арқылы орнататын қасиет қайсы?",
+    "correctAnswer": "font-size",
+    "distractors": [
+      "size",
+      "text-size"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Мәтінді қалың етуге қай мән дұрыс?",
+    "correctAnswer": "font-weight: bold;",
+    "distractors": [
+      "font: thick;",
+      "font-style: bold;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Қаріптің көлбеулігін орнататын қасиет қайсы?",
+    "correctAnswer": "font-style",
+    "distractors": [
+      "font-weight",
+      "text-decoration"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Сілтеменің астындағы сызықты алып тастауға қай декларация сәйкес?",
+    "correctAnswer": "text-decoration: none;",
+    "distractors": [
+      "font-style: none;",
+      "underline: false;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Абзац мәтінін ортаға туралау үшін қай қасиетті қолданасыз?",
+    "correctAnswer": "text-align: center;",
+    "distractors": [
+      "vertical-align: center;",
+      "position: center;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Жол биіктігін орнататын CSS қасиеті қайсы?",
+    "correctAnswer": "line-height",
+    "distractors": [
+      "text-spacing",
+      "font-height"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Мәтіннің бас әріптерін CSS арқылы бас әріпке айналдыруға қай декларация арналған?",
+    "correctAnswer": "text-transform: uppercase;",
+    "distractors": [
+      "text-case: upper;",
+      "font-transform: uppercase;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Элементтің фонын көк түске бояйтын дұрыс декларация қайсы?",
+    "correctAnswer": "background-color: blue;",
+    "distractors": [
+      "fill-color: blue;",
+      "background-image: blue;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Фон суретін қосудың қасиеті мен мәні қай нұсқада дұрыс?",
+    "correctAnswer": "background-image: url(\"bg.png\");",
+    "distractors": [
+      "src: \"bg.png\";",
+      "image: url(\"bg.png\");"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Фон суретін контейнер ішінде бір рет қана көрсету үшін қай қасиет жарайды?",
+    "correctAnswer": "background-repeat: no-repeat;",
+    "distractors": [
+      "image-repeat: 0;",
+      "background-size: single;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Фон суретін контейнерді толтырып, қажет болса қию үшін қай мән жиі қолданылады?",
+    "correctAnswer": "background-size: cover;",
+    "distractors": [
+      "object-fit: cover;",
+      "background-fit: stretch;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Элементтің шекара түсін орнататын қасиет қайсы?",
+    "correctAnswer": "border-color",
+    "distractors": [
+      "edge-color",
+      "frame-color"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Элементтің border шекарасын 2px тұтас көк етіп беретін дұрыс мән қайсы?",
+    "correctAnswer": "border: 2px solid blue;",
+    "distractors": [
+      "outline: 2px blue solid;",
+      "border: solid blue 2;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Тек төменгі шекараның енін өзгертуге қай қасиет керек?",
+    "correctAnswer": "border-bottom-width",
+    "distractors": [
+      "border: bottom 2px",
+      "border-width-bottom"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Қай декларация элементтің сыртқы шекарасынан тыс бос орынды береді?",
+    "correctAnswer": "margin: 12px;",
+    "distractors": [
+      "border-spacing: 12px;",
+      "padding: 12px;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Мазмұн мен шекара арасындағы ішкі аралықты үлкейтетін қасиет қайсы?",
+    "correctAnswer": "padding",
+    "distractors": [
+      "gap-outside",
+      "outline-offset"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Элементтің ені 200px, padding 20px, border 2px. Әдепкі content-box моделінде нақты сыртқы ені қанша?",
+    "correctAnswer": "244px",
+    "distractors": [
+      "240px",
+      "220px"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "box-sizing: border-box берілсе, width: 200px нені білдіреді?",
+    "correctAnswer": "Padding мен border-ді қосқандағы қорап енін 200px шегінде ұстайды",
+    "distractors": [
+      "Тек мазмұн енін 200px етеді",
+      "Биіктігін 200px етеді"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Барлық <p> ішіндегі <em> элементін таңдайтын селектор қайсы?",
+    "correctAnswer": "p em",
+    "distractors": [
+      "p.em",
+      "p > em"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": ".card:hover ережесі қай жағдайда қолданылады?",
+    "correctAnswer": "class=\"card\" элементінің үстіне көрсеткіш келгенде",
+    "distractors": [
+      "Барлық card тегіне әрқашан",
+      "class=\"card\" элементіне фокус берілгенде ғана"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "CSS-тің сыртқы файлын HTML-ге қосу үшін қай элемент қолданылады?",
+    "correctAnswer": "<link rel=\"stylesheet\" href=\"main.css\">",
+    "distractors": [
+      "<script src=\"main.css\">",
+      "<style src=\"main.css\">"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Ішкі CSS стилін тікелей бір элементке беру қай атрибут арқылы орындалады?",
+    "correctAnswer": "style",
+    "distractors": [
+      "id",
+      "class"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Құжаттағы <style> блогында жазылған CSS қалай аталады?",
+    "correctAnswer": "Ішкі стиль кестесі",
+    "distractors": [
+      "Пайдаланушы агентінің стилі",
+      "Сыртқы стиль кестесі"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Екі бөлек HTML бетіне ортақ дизайнды бір жерден басқару үшін қай тәсіл ыңғайлы?",
+    "correctAnswer": "Екі бетке бір сыртқы CSS файлды жалғау",
+    "distractors": [
+      "CSS-ті әр суреттің alt мәтініне қосу",
+      "Әр тегке жеке style атрибутын жазу"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Бір элементке екі ереже қолданылады: .notice {color: green} және #msg {color: red}; элементте class=\"notice\" id=\"msg\" бар. Қай түс басым?",
+    "correctAnswer": "Қызыл, себебі id селекторының ерекшелігі жоғары",
+    "distractors": [
+      "Екеуі араласып сары болады",
+      "Жасыл, себебі class id-ден күшті"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Бірдей ерекшелікті екі ереже бір элементке сәйкес келіп, екіншісі кейін жазылса, әдетте қайсысы жеңеді?",
+    "correctAnswer": "Кейін жазылған ереже",
+    "distractors": [
+      "Бірінші ереже",
+      "Екеуі де қолданылмайды"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Төмендегі ережедегі синтаксистік қате қайсы: p { color red; }",
+    "correctAnswer": "Қасиет пен мән арасында қос нүкте жоқ",
+    "distractors": [
+      "color қасиеті сан болуы керек",
+      "Жақша ішінде мәтін жазуға болмайды"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Ереженің жабылатын жақшасы түсіп қалса, қандай мәселе туындауы мүмкін?",
+    "correctAnswer": "Браузер ереже блогын дұрыс талдамай, одан кейінгі стильге әсер етуі мүмкін",
+    "distractors": [
+      "HTML құжат автоматты жойылады",
+      "Суреттердің файл атауы өзгереді"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Бір декларацияның соңындағы нүктелі үтірді соңғы декларациядан кейін қалдыру туралы қай тұжырым дұрыс?",
+    "correctAnswer": "CSS синтаксисіне сай және келесі декларациялармен шатаспауға көмектеседі",
+    "distractors": [
+      "Ол қасиеттің мәнін анықтайды",
+      "Оны жазса, браузер ережені елемейді"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Фон суреті қайталана беріп, кішкентай тақырыпшаны торлап кетті. Қай түзету тікелей қайталануды тоқтатады?",
+    "correctAnswer": "background-repeat: no-repeat;",
+    "distractors": [
+      "repeat: 1;",
+      "background-color: none;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Элементтің төрт жағына бірдей ішкі аралық беруге қай shorthand жарайды?",
+    "correctAnswer": "padding: 10px;",
+    "distractors": [
+      "margin: inside 10px;",
+      "border: 10px;"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "margin: 5px 12px жазылса, екі мән қалай таралады?",
+    "correctAnswer": "Жоғары-төмен 5px, оң-сол 12px",
+    "distractors": [
+      "Барлық жаққа 5px және оңға қосымша 12px",
+      "Тек сол және оң жақ 5px"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "#banner селекторы қандай элементті таңдайды?",
+    "correctAnswer": "id=\"banner\" элементін",
+    "distractors": [
+      "banner тегін",
+      "class=\"banner\" бар барлық элементтерді"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": ".menu a селекторы мен .menu > a селекторының айырмасы неде?",
+    "correctAnswer": "Біріншісі кез келген ұрпақ сілтемені, екіншісі тек тікелей баланы таңдайды",
+    "distractors": [
+      "Екеуі де тек бірінші сілтемені таңдайды",
+      "Біріншісі id, екіншісі class таңдайды"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": ":first-child псевдоклассы қай элементті белгілейді?",
+    "correctAnswer": "Ата-анасының бірінші баласы болатын элементті",
+    "distractors": [
+      "Ата-анасындағы сәйкес типтің соңғысын",
+      "Құжаттағы бірінші тегті"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "Сілтеменің пайдаланушы қарап қойған күйін таңдауға қай псевдокласс қолданылады?",
+    "correctAnswer": ":visited",
+    "distractors": [
+      ":opened",
+      ":read"
+    ],
+    "topic": "CSS"
+  },
+  {
+    "question": "JavaScript веб-бетке ең алдымен қандай мүмкіндік қосады?",
+    "correctAnswer": "Пайдаланушы әрекетіне жауап беретін интерактивтілік",
+    "distractors": [
+      "HTML тегтерін браузерден жасыру",
+      "Сурет файлдарын автоматты қысу"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Скрипт дегеніміз не?",
+    "correctAnswer": "Құжатты жүктегенде не кейін орындалатын бағдарлама нұсқаулары",
+    "distractors": [
+      "Тек веб-беттің түсін сақтайтын сурет",
+      "Браузер тарихын тазалайтын HTML тегі"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "JavaScript парадигмалары туралы қай тұжырым дұрыс?",
+    "correctAnswer": "Императивті, функционалдық және нысанға бағытталған тәсілдерді қолдана алады",
+    "distractors": [
+      "Тек функционалдық тәсілге рұқсат етеді",
+      "Тек кестелік белгілеу тілі"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "JavaScript объектісі әдетте неден құралады?",
+    "correctAnswer": "Қасиеттер мен әдістерден",
+    "distractors": [
+      "Тек HTML тегтерінен",
+      "Тек түс мәндері мен қаріптерден"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Динамикалық типтеу дегеніміз не?",
+    "correctAnswer": "Айнымалының типі орындалу кезінде мәніне қарай анықталуы мүмкін",
+    "distractors": [
+      "Әр айнымалыға компиляция алдында өзгермейтін тип жазу міндетті",
+      "Мәні бар айнымалыны қайта пайдалануға тыйым салу"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Әлсіз типтеу қандай жағдайға әкелуі мүмкін?",
+    "correctAnswer": "Әртүрлі типтегі мәндер кей амалдарда автоматты түрленуі мүмкін",
+    "distractors": [
+      "Типтер ешқашан түрленбейді",
+      "Барлық объектілер жойылады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Жадыны автоматты басқарудың мақсаты қандай?",
+    "correctAnswer": "Қолданылмай қалған объектілерге бөлінген жадты босату",
+    "distractors": [
+      "Әр айнымалыны қолмен өшіруді міндеттеу",
+      "Кодты автоматты түрде HTML-ге айналдыру"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Прототиптік программалау нені білдіреді?",
+    "correctAnswer": "Объектілер басқа объектілерден қасиет пен мінез-құлықты мұралай алады",
+    "distractors": [
+      "Әр объект тек класстан ғана жасалады",
+      "Объект ішінде әдіс болуы мүмкін емес"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Бірінші санатты функциялар дегеніміз не?",
+    "correctAnswer": "Функцияны мән ретінде айнымалыға беру, аргумент ету не қайтару мүмкін",
+    "distractors": [
+      "Функция атауын тек бас әріппен жазу керек",
+      "Функция тек бір рет орындалады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Браузерде JavaScript коды әдетте қалай орындалады?",
+    "correctAnswer": "Браузердің JavaScript қозғалтқышы кодты талдап орындайды",
+    "distractors": [
+      "HTML сервері кодты суретке айналдырады",
+      "CSS интерпретаторы кодты орындайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "JavaScript тілінің алғашқы нұсқасын жасаған бағдарламашы кім?",
+    "correctAnswer": "Брендан Айк",
+    "distractors": [
+      "Тим Бернерс-Ли",
+      "Деннис Ритчи"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Клиент жағындағы JavaScript қай жерде орындалады?",
+    "correctAnswer": "Пайдаланушының браузерінде",
+    "distractors": [
+      "Тек дерекқор серверінде",
+      "Тек маршрутизаторда"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "HTML, CSS және JavaScript рөлдерін дұрыс сәйкестендіріңіз.",
+    "correctAnswer": "HTML құрылым, CSS көрініс, JavaScript әрекет пен логика береді",
+    "distractors": [
+      "HTML әрекет, CSS дерекқор, JavaScript сурет форматы",
+      "Үшеуі де тек мәтіннің түсін өзгертеді"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "HTML ішіне жазылған скрипт қайсы?",
+    "correctAnswer": "Кодты ашылатын және жабылатын script тегтерінің арасына жазу",
+    "distractors": [
+      "Кодты img тегінің alt атрибутына салу",
+      "Кодты CSS түсінің мәні ретінде беру"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "script тегіндегі src атрибутының міндеті қандай?",
+    "correctAnswer": "Сыртқы JavaScript файлының мекенжайын көрсету",
+    "distractors": [
+      "Браузердегі қаріп өлшемін көрсету",
+      "Функцияның қайтарылатын мәнін көрсету"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Қазіргі HTML құжатында script тегіндегі type атрибуты туралы қайсысы дұрыс?",
+    "correctAnswer": "Кәдімгі JavaScript үшін оны көбіне көрсету міндетті емес",
+    "distractors": [
+      "Ол әрқашан JavaScript нұсқасын жүктейді",
+      "Ол src атрибутының орнына міндетті түрде жүреді"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "HTML ішкі және сыртқы скриптінің айырмасы қандай?",
+    "correctAnswer": "Ішкі код HTML-де, сыртқы код бөлек .js файлында сақталады",
+    "distractors": [
+      "Ішкі код серверде, сыртқы код тек суретте сақталады",
+      "Ішкі скриптте функция болмайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Скриптті head бөлігіне орналастыруға бола ма?",
+    "correctAnswer": "Иә, бірақ орындалу уақыты мен DOM қолжетімділігін ескеру керек",
+    "distractors": [
+      "Жоқ, JavaScript тек footer ішінде болады",
+      "Жоқ, script тек CSS файлында жазылады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Браузер JavaScript-ті қолдамаса, қандай тегпен балама хабарлама көрсетуге болады?",
+    "correctAnswer": "<noscript>",
+    "distractors": [
+      "<nojs>",
+      "<fallback>"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "document.write() функциясының негізгі қызметі қандай?",
+    "correctAnswer": "Құжатқа мәтін не HTML мазмұнын жазу",
+    "distractors": [
+      "Құжатты серверге жүктеу",
+      "Пайдаланушы пернетақтасын бұғаттау"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "document.writeln() функциясының document.write()-тен айырмасы қандай?",
+    "correctAnswer": "Жазылған мазмұннан кейін жол ауыстыру таңбасын қосады",
+    "distractors": [
+      "Браузерде міндетті түрде диалог ашады",
+      "Тек санды есептейді"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "alert() не істейді?",
+    "correctAnswer": "Хабарламасы бар модаль терезе көрсетіп, пайдаланушы әрекетін күтеді",
+    "distractors": [
+      "Енгізілген мәтінді айнымалыға автоматты сақтайды",
+      "Екі нұсқалы true/false сұрағын қайтарады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "prompt() функциясы туралы қайсысы дұрыс?",
+    "correctAnswer": "Мәтін енгізу терезесін ашады; нәтиже жол не null болуы мүмкін",
+    "distractors": [
+      "Тек OK/Cancel береді және әрдайым boolean қайтарады",
+      "Тек экранға ескерту көрсетіп, мән қайтармайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "confirm() функциясы әдетте қандай мән қайтарады?",
+    "correctAnswer": "OK болса true, Cancel болса false",
+    "distractors": [
+      "Енгізілген мәтін жолын әрдайым",
+      "Тек null мәнін"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "onload оқиғасы қашан іске қосылады?",
+    "correctAnswer": "Құжат не ресурс жүктелуі аяқталғанда",
+    "distractors": [
+      "Элементті екі рет шерткенде",
+      "Мәтін өрісінен фокус кеткенде"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "onclick оқиғасы қашан болады?",
+    "correctAnswer": "Элементті шерткенде",
+    "distractors": [
+      "Көрсеткіш элементтен кеткенде ғана",
+      "Құжат жүктелмей тұрып"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "mousedown пен mouseover айырмасы қандай?",
+    "correctAnswer": "mousedown батырма басылғанда, mouseover көрсеткіш элемент үстіне келгенде болады",
+    "distractors": [
+      "Екеуі де пернетақта оқиғасы",
+      "mousedown фокус жоғалтқанда, mouseover форма жіберілгенде болады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "focus және blur оқиғалары нені білдіреді?",
+    "correctAnswer": "focus элемент фокус алғанын, blur фокустан шыққанын білдіреді",
+    "distractors": [
+      "focus батырма шертілгенін, blur бетті жүктегенін білдіреді",
+      "focus форма тазаланғанын, blur жіберілгенін білдіреді"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "keydown және keyup оқиғалары қалай ажыратылады?",
+    "correctAnswer": "keydown перне басылғанда, keyup перне жіберілгенде болады",
+    "distractors": [
+      "keydown перне жіберілгенде, keyup перне басылғанда болады",
+      "Екеуі де тек тышқан қозғалысын бақылайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Формадағы submit және reset оқиғалары нені білдіреді?",
+    "correctAnswer": "submit жіберу әрекеті, reset бастапқы мәндерге қайтару әрекеті",
+    "distractors": [
+      "submit мәтін таңдау, reset тышқанды жылжыту",
+      "submit фокус алу, reset фокус жоғалту"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "let пен const айнымалыларының var-дан маңызды айырмасы қандай?",
+    "correctAnswer": "let және const блок аймағымен шектеледі; const айнымалысына қайта мән тағайындауға болмайды",
+    "distractors": [
+      "let пен const тек мәтін сақтайды",
+      "var тек функция ішінде қолданылады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "=== операторы нені тексереді?",
+    "correctAnswer": "Мән мен типтің қатаң теңдігін",
+    "distractors": [
+      "Тек мәндердің теңдігін, типті елемейді",
+      "Екі мәннің бір уақытта бос екенін"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Массив екенін сенімді тексерудің дұрыс жолы қайсы?",
+    "correctAnswer": "Array.isArray(value)",
+    "distractors": [
+      "value.isArray()",
+      "typeof value === \"array\""
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "push() әдісі массивке не істейді?",
+    "correctAnswer": "Жаңа элементті соңына қосады",
+    "distractors": [
+      "Бірінші элементті алып тастайды",
+      "Массивті әліпби бойынша сұрыптайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Массивтің ұзындығын қай қасиет береді?",
+    "correctAnswer": "length",
+    "distractors": [
+      "size()",
+      "count"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "addEventListener() не үшін қолданылады?",
+    "correctAnswer": "Элементке оқиға тыңдаушысын тіркеу үшін",
+    "distractors": [
+      "HTML файлын серверге жүктеу үшін",
+      "CSS ережесін жою үшін"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "document.querySelector(\".card\") не қайтарады?",
+    "correctAnswer": "Селекторға сәйкес бірінші элементті",
+    "distractors": [
+      "Сәйкес барлық элементтердің массивін",
+      "Құжаттың тақырыбын"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "textContent қасиеті неге арналған?",
+    "correctAnswer": "Элементтің мәтіндік мазмұнын оқу не өзгертуге",
+    "distractors": [
+      "Элементтің CSS класын өзгертуге ғана",
+      "Браузер қойындысының атауын өзгертуге"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Форма оқиғасында preventDefault() әдетте не істейді?",
+    "correctAnswer": "Браузердің әдепкі әрекетін тоқтатады",
+    "distractors": [
+      "Барлық оқиға тыңдаушыларын өшіреді",
+      "Пішіннің барлық өрісін тазалайды"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "script тегіндегі defer атрибутының әсері қандай?",
+    "correctAnswer": "Скрипт HTML талданғаннан кейін орындалады",
+    "distractors": [
+      "Скрипт әр секунд сайын қайталанады",
+      "Сыртқы файлды жүктеуге тыйым салынады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "null мәні нені білдіреді?",
+    "correctAnswer": "Мәннің әдейі бос екенін",
+    "distractors": [
+      "Айнымалы әлі жарияланбағанын",
+      "Мән міндетті түрде нөл екенін"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Функциядағы параметр дегеніміз не?",
+    "correctAnswer": "Функция анықтамасында көрсетілетін кіріс атауы",
+    "distractors": [
+      "Функция қайтаратын экран мәтіні",
+      "Функцияны тоқтататын оператор"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Жебелік функцияны қай жазылым дұрыс көрсетеді?",
+    "correctAnswer": "const add = (a, b) => a + b;",
+    "distractors": [
+      "function => add(a, b)",
+      "const add -> function(a, b)"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "return операторының міндеті қандай?",
+    "correctAnswer": "Функциядан мән қайтарып, оның орындалуын аяқтау",
+    "distractors": [
+      "Циклді келесі айналымға өткізу",
+      "Айнымалыны бүкіл бетке жариялау"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Үлгі жол (template literal) қай таңбамен қоршалады?",
+    "correctAnswer": "Кері апострофпен (`)",
+    "distractors": [
+      "Тек қос тырнақшамен",
+      "Жақша жақшамен"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Math.floor(4.9) нәтижесі қандай?",
+    "correctAnswer": "4",
+    "distractors": [
+      "5",
+      "4.9"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "&& логикалық операторы қашан true береді?",
+    "correctAnswer": "Екі операнды да ақиқат болғанда",
+    "distractors": [
+      "Кемінде бір операнд ақиқат болғанда",
+      "Екі операнд та жалған болғанда"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "|| логикалық операторының негізгі шарты қандай?",
+    "correctAnswer": "Кемінде бір операнд ақиқат болса, нәтиже ақиқат болады",
+    "distractors": [
+      "Екі операнд та міндетті түрде ақиқат болуы керек",
+      "Ол тек сандарды қосады"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "Пайдаланушы батырманы шерткенде жиі қолданылатын оқиға атауы қайсы?",
+    "correctAnswer": "click",
+    "distractors": [
+      "hover",
+      "press"
+    ],
+    "topic": "JavaScript"
+  },
+  {
+    "question": "JSON.parse() қандай міндет атқарады?",
+    "correctAnswer": "JSON пішіміндегі мәтінді JavaScript мәніне айналдырады",
+    "distractors": [
+      "JavaScript кодын HTML-ге түрлендіреді",
+      "Объектіні экранға стильмен салады"
+    ],
+    "topic": "JavaScript"
+  }
+]
